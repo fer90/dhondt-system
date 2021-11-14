@@ -2,7 +2,7 @@ package party
 
 type Party struct {
 	Name string
-	validVotes int
+	ValidVotes int
 }
 
 func New(name string, validVotes int) Party {
